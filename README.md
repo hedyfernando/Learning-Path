@@ -7,4 +7,3 @@ This Repository will share about my journey for get a goal to be a Data Scientis
 
 
 # Learning-Path
-# Learning-Path
