@@ -1,0 +1,23 @@
+CREATE TABLE iF NOT EXISTS telco_users(
+	customer_id varchar(15) PRIMARY KEY,
+	gender varchar(7),
+	senior_citizen integer,
+	partner text,
+	dependents text,
+	tenure integer,
+	phone_service text,
+	multiplelines varchar(20),
+	internet_service varchar(20),
+	online_security varchar(20),
+	online_backup varchar(20),
+	device_protection varchar(20),
+	tech_support varchar(20),
+	streaming_tv varchar(20),
+	streaming_movies varchar(20),
+	contract varchar(20),
+	paperlessbilling text,
+	payment_method varchar(20),
+	monthly_charges numeric,
+	total_charges numeric,
+	churn text
+);
